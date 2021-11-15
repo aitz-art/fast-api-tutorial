@@ -13,7 +13,15 @@ pip install requests
 pip install pydantic
 ```
 
+## Create VENV
+
+```bash
+python3 -m venv fast-api-venv
+source fast-api-venv/bin/activate
+```
+
 ## Test
+
 ```bash
 # TEST SCRIPTS
 uvicorn app.main:app 
